@@ -81,11 +81,12 @@ p {
 }
 
 aside {
-    margin-top: 5%;
-    height: 1000px;
+
+    height: 1200px;
     background-color: rgb(160, 211, 160);
     width: 160px;
     border-radius: 5px;
+    box-shadow: 10px 5px 5px rgb(60, 153, 31);
   
 }
 
@@ -103,3 +104,4 @@ a:link {
 li {
     margin-top: 5%;
 }
+
