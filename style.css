@@ -10,17 +10,18 @@ body {
     min-height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
-    display: grid;
-    place-content: center;
     background-color: lightblue;
   }
 
+
 .cards-grid {
+    
     display: grid;
     gap: 1rem;
     --auto-grid-min-size: 16rem;
-    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     margin: 5%;
+    width: 100%;
     
 }
 
@@ -79,3 +80,26 @@ p {
     color: rgba(155, 155, 182, 0.966);
 }
 
+aside {
+    margin-top: 5%;
+    height: 1000px;
+    background-color: rgb(160, 211, 160);
+    width: 160px;
+    border-radius: 5px;
+  
+}
+
+.position {
+    display: flex;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(70, 70, 112);
+    font-size: 1.5em;
+    
+}
+
+li {
+    margin-top: 5%;
+}
